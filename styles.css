@@ -16,8 +16,6 @@ header {
     padding: 20px;
 }
 
-
-
 header > h1 {
     color: #25272E;
     text-align: center;
@@ -79,12 +77,14 @@ header > h1 {
     display: inline-block;
     border: 4px solid white;
     border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 .choice:hover {
     cursor: pointer;
     background: rgb(57, 62, 74);
-    transition: all 0.2s ease;
+
 }
 
 #action-message {
@@ -95,7 +95,21 @@ header > h1 {
     font-size: 20px;
 }
 
+.green-glow {
+    border: 4px solid rgb(95, 255, 95);
+    box-shadow: 0 0 10px rgb(15, 164, 15);
 
+}
+
+.red-glow {
+    border: 4px solid rgb(244, 34, 34);
+    box-shadow: 0 0 10px rgb(186, 0, 0);
+}
+
+.gray-glow {
+    border: 4px solid rgb(159, 159, 159);
+    box-shadow: 0 0 10px rgb(142, 142, 142);
+}
 
 
 
